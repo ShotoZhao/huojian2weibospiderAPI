@@ -8,7 +8,7 @@ import json
 class Huojianweibo2Spider(scrapy.Spider):
     name = 'huojianweibo2'
     allowed_domains = ['m.weibo.cn','media.weibo.cn']
-    url = 'https://m.weibo.cn/api/container/getIndex?uid=5414746957&type=uid&value=5414746957&containerid=1076035414746957&page='
+    url = 'https://m.weibo.cn/api/container/getIndex?uid=54114746957&page='
     page = 0
     start_urls = [url+str(page)]
 
